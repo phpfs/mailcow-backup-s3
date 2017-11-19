@@ -1,5 +1,7 @@
 # mailcow-backup-s3
 
+## WORK IN PROGRESS!
+
 mailcow.conf
 ```
 # ------------------------------
