@@ -30,6 +30,7 @@ s3-backup-mailcow:
     - AWS_REGION=${AWS_REGION}
     - AWS_BUCKET=${AWS_BUCKET}
     - CRON_SCHEDULE=${S3_CRON_SCHEDULE}
+    - TIMEZONE=${TZ}
   networks:
     mailcow-network:
       ipv4_address: 172.22.1.245
