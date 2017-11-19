@@ -21,7 +21,7 @@ docker-compose.yml
       volumes:
         - vmail-vol-1:/vmail:ro
       restart: always
-          environment:
+      environment:
         - DBNAME=${DBNAME}
         - DBUSER=${DBUSER}
         - DBPASS=${DBPASS}
