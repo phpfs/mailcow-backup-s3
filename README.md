@@ -15,7 +15,7 @@ S3_CRON_SCHEDULE='0 1 * * *'
 docker-compose.yml
 ```yml
 s3-backup-mailcow:
-  image: phpfs/mailcow-backup-s3:1.10
+  image: phpfs/mailcow-backup-s3
   volumes:
     - vmail-vol-1:/vmail:ro
   restart: always
