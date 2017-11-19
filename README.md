@@ -9,7 +9,7 @@ AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
 AWS_REGION=us-east-1
 AWS_BUCKET=s3://backup/mailcow/
-S3_CRON_SCHEDULE='0 1 * * *'
+S3_CRON_SCHEDULE=0 1 * * *
 ```
 
 docker-compose.yml
