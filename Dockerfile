@@ -5,7 +5,7 @@ COPY run-backup.sh /
 
 RUN \
   apk update && \
-  apk add mariadb-client && \
+  apk add mariadb-client tzdata && \
   rm /var/cache/apk/* && \
   mkdir /backup && \
   chmod +x /entry-point.sh /run-backup.sh
