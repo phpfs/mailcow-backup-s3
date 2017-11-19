@@ -7,6 +7,7 @@ RUN \
   apk update && \
   apk add mariadb-client && \
   rm /var/cache/apk/* && \
+  mkdir /backup && \
   chmod +x /entry-point.sh /run-backup.sh
   
 ENTRYPOINT /entry-point.sh
