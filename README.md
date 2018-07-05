@@ -2,7 +2,7 @@
 
 A simple addon for mailcow-dockerized to backup mails and MySQl to AWS S3.
 
-## --> WORK IN PROGRESS! <--
+## --> Currently not recommended to use! <--
 
 ### Docker Hub
 https://hub.docker.com/r/phpfs/mailcow-backup-s3/
